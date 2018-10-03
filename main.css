@@ -1,0 +1,118 @@
+.topLevelContainer{
+    height: 100vh;
+}
+
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5vh;
+    width: 99%;
+    position: absolute;
+    top: 0;
+    border: 1px solid;
+}
+
+.headerContainer > div:nth-of-type(1){
+    width: 200px;
+    height:100%;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+}
+
+.headerContainer > div:nth-of-type(2):hover{
+    color: grey;
+}
+
+.footerContainer{
+    height: 5vh;
+    width: 99%;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid;
+}
+
+.toolContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center space-evenly;
+    align-items: center;
+    height: 42vh;
+    width: 99%;
+    position: absolute;
+    top: 6vh;
+    border-bottom: 1px solid;
+}
+.toolContainer > div:nth-of-type(1){
+    font-size: 30px;
+}
+
+.visualToolContainer{
+    display: grid;
+    height:30vh;
+    width: 50%;
+    border: 1px solid;
+}
+
+.toolCheckButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vh;
+    width: 50%;    
+}
+
+.toolCheckButton{
+    text-align: center;
+    width: 20%;
+    height: 75%;
+    background-color: lightgrey;
+    margin-bottom: 15px;
+}
+
+.toolCheckButton:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 42vh;
+    width: 99%;
+    position: absolute;
+    bottom: 6vh;
+}
+
+.contentLinksContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: 1px solid;
+}
+
+.contentLinksContainer > div{
+    text-align: center;
+   
+    background-color: lightgray;
+    width: 100%;
+    margin-right: 25px;
+}
+
+.contentLinksContainer > div:hover{
+    background-color: black;
+    color:white;
+    box-shadow: 10px 10px 5px grey;
+    cursor: pointer;
+}
+
+.mainContent{
+    width: 85vw;
+}
